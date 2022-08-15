@@ -1,0 +1,634 @@
+/*pc.スマホ共通スタイル*/
+body{
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+    background-color: #616C59;
+}
+p{
+    font-size: 15px;
+}
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+  }
+   
+  .sa.show {
+    opacity: 1;
+    transform: none;
+  }
+ 
+  /*#customer{
+    height: 600px;
+    background: url(../img/bg_triangle.png) left top/0% no-repeat #ccc;
+    transition: all 2s;
+    text-align: center;
+  }*/
+/*pc*/
+@media  screen and (min-width:768px) {
+    
+header{
+    width: 100%;
+}
+#header-img{
+    width: 100%;
+}
+#header-sp{
+    display: none;
+}
+/*見出し*/
+h2{
+    margin: 40px 0 0 0;
+}
+h3{
+    font-size: 40px;
+}
+/*logo*/
+#logo{
+    width: 100%;
+
+}
+#logo > div {
+    width: 40%;
+    margin: auto;
+    padding: 80px 0;
+}
+#logo > div > img{
+    width: 100%;
+}
+/*consept*/
+#consept{
+    
+    width: 100%;
+    padding: 40px ;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+    background-image: url(encantimg/consept-img.png);
+}
+#consept-main{
+    width: 50%;
+    margin: auto;
+}
+#consept-main > h3{
+    font-size: 30px;
+    padding: 40px 0 40px 0;
+}
+
+/* section02 start 
+#section02 {
+    position: relative;
+    height: 60rem;
+    background: url(encantimg/consept-img.png) 50% 50% no-repeat;
+    overflow: hidden;
+}
+#section02 .box .num {
+    padding-top: 15rem;
+    text-align: center;
+    margin: 0 auto 1.9rem auto;
+    width: 13.28%;
+}
+#section02 .box .num img {
+    width: 100%;
+}
+#section02 .box .title {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 2.2rem;
+}
+#section02 .box .desc {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    line-height: 2em;
+}
+#section02 .bg1 {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    width: 23%;
+    left: 6.5%;
+    height: 60rem;
+    /* background: url(../images/section02_bg1.png) 0% 0% no-repeat; 
+    background: url() 0% 0% no-repeat;
+    background-size: 100%;
+}
+#section02 .bg2 {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    width: 23%;
+    right: 6.5%;
+    height: 60rem;
+    /* background: url(../images/section02_bg2.png) 0% 0% no-repeat; 
+    background: url() 0% 0% no-repeat;
+    background-size: 100%;
+}
+#section02 .bg3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60rem;
+    width: 36.45%;
+    /* background: url(../images/section02_bg3.png) 0% 0% no-repeat; 
+    background: url() 0% 0% no-repeat;
+    background-size: 100%;
+}
+#section02 .bg4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60rem;
+    width: 33.46%;
+    /* background: url(../images/section02_bg4.png) 0% 0% no-repeat; 
+    background: url() 0% 0% no-repeat;
+    background-size: 100%;
+}
+ section02 end */
+
+/*customer*/
+#customer{
+    width: 100%;
+    background-image: url(encantimg/farst-bi.png);
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+}
+#farst-customer{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+#COVID-19{
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+#COVID-19 > img{
+    width: 100%;
+}
+#farst-customer > a{
+    padding: 20px 0 ;
+}
+#farst-customer > a > img{
+    width: 100%;
+}
+/*menu*/
+#menu{
+    width: 100%;
+    color: white;
+}
+#woman-menu{
+    background-image: url(encantimg/menu-woman-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+}
+.menu-img{
+    width: 30%;
+    margin: auto;
+}
+.menu-img >div{
+    position: relative;
+}
+.sikaku{
+    width: 100%;
+}
+.maruimg{
+    position: absolute;
+    top: 60px;
+    right: -60px;
+    width: 60%;
+}
+.menu-text{
+    padding: 120px 0 0px 0;
+    width: 60%;
+    margin: auto;
+}
+.menu-text > p{
+    text-align: center;
+   
+}
+#mens-menu{
+    background-image: url(encantimg/menu-mens-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+}
+#mens-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#kids-menu{
+    background-image: url(encantimg/menu-kids-bi.png);
+    
+    width: 100%;
+    padding: 40px;
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+
+   
+}
+#kids-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hard-menu{
+    background-image: url(encantimg/menu-hard-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: 100% 270%;
+    background-repeat: no-repeat;
+}
+#hard-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#woman-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*priceoff*/
+#price-off{
+    width: 100%;
+    padding: 40px;
+}
+#price-off > div{
+    width: 60%;
+    margin: auto;
+}
+#price-off > div > img{
+    width: 100%;
+}
+/*product*/
+#product{
+    width: 100%;
+    background-image: url(encantimg/product-bi.png);
+    padding: 40px;
+    background-size: cover;
+    color: white;
+}
+.product-content{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.product-content > div{
+    width: 50%;
+}
+.product-content > div > img{
+    width: 100%;
+}
+.product-text{
+    text-align: center;
+    padding: 80px 40px 40px 40px ;
+}
+/*access,flow*/
+#access-flow{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #616C59;
+}
+.flow-image{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.flow-image > img{
+    width: 100%;
+}
+.access-image{
+    width: 50%;
+    margin: auto;
+    
+}
+.access-image > img{
+    width: 100%;
+}
+/*store,recruit*/
+#recruit-store{
+    width: 100%;
+}
+#store{
+    width: 20%;
+    margin: 80px auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+#recruit > a > img{
+    width: 100%;
+}
+#recruit{
+    width: 40%;
+    margin: 80px auto;
+    text-align: center;  
+}
+
+/*fotter*/
+footer{
+    background-color: #51504d;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+}
+#footer-logo{
+    padding-bottom: 40px;
+    margin: auto;
+    width: 30%;
+}
+#footer-logo >img{
+    width: 100%;
+}
+#sns-footer{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+#sns-footer > a{
+    margin-right: 0px;
+}
+#sns-footer > a > img{
+    width: 15%;
+}
+#copyright{
+    color: #ffffff;
+    float: right;
+}
+
+}
+/*=============================スマホ用スタイル===============================*/
+@media screen and (max-width:767px){
+    body{
+        margin: 0;
+    }
+    #header-img{
+        display: none;
+    }
+    #header-sp{
+        width: 100%;
+        background-size: cover;
+    }
+    p{
+        font-size: 10px;
+    }
+   /*logo*/
+#logo{
+    width: 100%;
+}
+#logo-image {
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+}
+#coupon{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#logo > div > img{
+    width: 100%;
+}
+/*consept*/
+#consept{
+    background-image: url(encantimg/consept-img.png);
+    width: 100%;
+    padding: 40px ;
+    background-size: 320%;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+#consept-main{
+    width: 80%;
+    margin: auto;
+}
+#consept-main > h3{
+    font-size: 20px;
+    padding: 0px 0 20px 0;
+}
+#consept-main > div > p{
+    font-size: 10px;
+}
+/*customer*/
+#customer{
+    width: 100%;
+    background-image: url(encantimg/farst-bi.png);
+    background-size: 340%;
+    background-repeat: no-repeat;
+    
+}
+#farst-customer{
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+#COVID-19{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+#COVID-19 > img{
+    width: 100%;
+}
+#farst-customer > a{
+    padding: 20px 0;
+}
+#farst-customer > a > img{
+    width: 100%;
+}
+/*menu*/
+#menu{
+    width: 100%;
+    color: white;
+}
+#woman-menu{
+    background-image: url(encantimg/menu-woman-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: cover;
+}
+.menu-img{
+    width: 60%;
+    margin: auto;
+}
+.menu-img >div{
+    position: relative;
+}
+.sikaku{
+    width: 100%;
+}
+.maruimg{
+    position: absolute;
+    top: 50px;
+    right: -60px;
+    width: 60%;
+}
+.menu-text{
+    padding: 80px 0 0px 0;
+    width: 80%;
+    margin: auto;
+}
+.menu-text > p{
+    text-align: center;
+}
+#mens-menu{
+    background-image: url(encantimg/menu-mens-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: cover;
+}
+#mens-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#kids-menu{
+    background-image: url(encantimg/menu-kids-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: cover;
+}
+#kids-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#hard-menu{
+    background-image: url(encantimg/menu-hard-bi.png);
+    width: 100%;
+    padding: 40px;
+    background-size: cover;
+}
+#hard-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#woman-menu > h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*priceoff*/
+#price-off{
+    width: 100%;
+    padding: 40px;
+}
+#price-off > div{
+    width: 80%;
+    margin: auto;
+}
+#price-off > div > img{
+    width: 100%;
+}
+/*product*/
+#product{
+    width: 100%;
+    background-image: url(encantimg/product-bi.png);
+    padding: 40px;
+    background-size: cover;
+    color: white;
+}
+.product-content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.product-content > div{
+    width: 50%;
+}
+.product-content > div > img{
+    width: 100%;
+}
+.product-text > p{
+    font-size: 10px;
+}
+.product-text{
+    text-align: center;
+    padding: 40px 40px 40px 40px ;
+}
+/*access,flow*/
+#access-flow{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #8DA793;
+}
+.flow-image{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.flow-image > img{
+    width: 100%;
+}
+.access-image{
+    width: 80%;
+    margin: auto;
+    
+}
+.access-image > img{
+    width: 100%;
+}
+/*store,recruit*/
+#recruit-store{
+    width: 100%;
+}
+#store{
+    width: 40%;
+    margin: 80px auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+#recruit > a > img{
+    width: 100%;
+}
+#recruit{
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;  
+}
+
+/*fotter*/
+footer{
+    background-color: #C9C5BC;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+}
+#footer-logo{
+    padding-bottom: 40px;
+    margin: auto;
+    width: 50%;
+}
+#footer-logo >img{
+    width: 100%;
+}
+#sns-footer{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+#sns-footer > a{
+    margin-right: 0px;
+}
+#sns-footer > a > img{
+    width: 15%;
+}
+#copyright{
+    color: #ffffff;
+    float: right;
+    font-size: 5px;
+}
+   
+   
+
+}
